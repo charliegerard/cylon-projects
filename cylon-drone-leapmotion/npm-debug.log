@@ -1,0 +1,1092 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'cylon-ardrone' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose config Skipping project config: /Users/cgerard/.npmrc. (matches userconfig)
+5 verbose cache add [ 'cylon-ardrone', null ]
+6 verbose cache add name=undefined spec="cylon-ardrone" args=["cylon-ardrone",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'cylon-ardrone',
+7 verbose parsed url   path: 'cylon-ardrone',
+7 verbose parsed url   href: 'cylon-ardrone' }
+8 silly lockFile 2b543a84-cylon-ardrone cylon-ardrone
+9 verbose lock cylon-ardrone /Users/cgerard/.npm/2b543a84-cylon-ardrone.lock
+10 silly lockFile 2b543a84-cylon-ardrone cylon-ardrone
+11 silly lockFile 2b543a84-cylon-ardrone cylon-ardrone
+12 verbose addNamed [ 'cylon-ardrone', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile dea6e4d9-cylon-ardrone cylon-ardrone@
+15 verbose lock cylon-ardrone@ /Users/cgerard/.npm/dea6e4d9-cylon-ardrone.lock
+16 silly addNameRange { name: 'cylon-ardrone', range: '*', hasData: false }
+17 verbose request where is /cylon-ardrone
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id b7f9d5ab84fc329d
+20 verbose url raw /cylon-ardrone
+21 verbose url resolving [ 'https://registry.npmjs.org/', './cylon-ardrone' ]
+22 verbose url resolved https://registry.npmjs.org/cylon-ardrone
+23 verbose request where is https://registry.npmjs.org/cylon-ardrone
+24 info trying registry request attempt 1 at 19:47:41
+25 http GET https://registry.npmjs.org/cylon-ardrone
+26 http 200 https://registry.npmjs.org/cylon-ardrone
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Sun, 18 Jan 2015 08:47:42 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"AX9RG01UFMO4BRDY1U5GJ65P9"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '28511',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '1',
+27 silly registry.get     'x-served-by': 'cache-syd1621-SYD',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1421570861.545961,VS0,VE788',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'cylon-ardrone', range: '*', hasData: true }
+29 silly addNameRange versions [ 'cylon-ardrone',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.9.0',
+29 silly addNameRange     '0.10.0',
+29 silly addNameRange     '0.11.0',
+29 silly addNameRange     '0.11.1',
+29 silly addNameRange     '0.12.0',
+29 silly addNameRange     '0.13.0',
+29 silly addNameRange     '0.14.0',
+29 silly addNameRange     '0.15.0',
+29 silly addNameRange     '0.16.0',
+29 silly addNameRange     '0.17.0' ] ]
+30 verbose addNamed [ 'cylon-ardrone', '0.17.0' ]
+31 verbose addNamed [ '0.17.0', '0.17.0' ]
+32 silly lockFile 16d9b8d6-cylon-ardrone-0-17-0 cylon-ardrone@0.17.0
+33 verbose lock cylon-ardrone@0.17.0 /Users/cgerard/.npm/16d9b8d6-cylon-ardrone-0-17-0.lock
+34 silly lockFile 25a3ad5f-ardrone-cylon-ardrone-0-17-0-tgz https://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz
+35 verbose lock https://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz /Users/cgerard/.npm/25a3ad5f-ardrone-cylon-ardrone-0-17-0-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz',
+36 verbose addRemoteTarball   'c7ef3d9c6bbcd74dd9f993c779ae9c3665e8a244' ]
+37 info retry fetch attempt 1 at 19:47:43
+38 verbose fetch to= /var/folders/x6/t99gwnpn29x2ntxc2bbln7cm0000gn/T/npm-49311-Tjoap6lt/registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz
+39 http GET https://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz
+40 http 200 https://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz
+41 silly lockFile 25a3ad5f-ardrone-cylon-ardrone-0-17-0-tgz https://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz
+42 silly lockFile 25a3ad5f-ardrone-cylon-ardrone-0-17-0-tgz https://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz
+43 silly lockFile 16d9b8d6-cylon-ardrone-0-17-0 cylon-ardrone@0.17.0
+44 silly lockFile 16d9b8d6-cylon-ardrone-0-17-0 cylon-ardrone@0.17.0
+45 silly lockFile dea6e4d9-cylon-ardrone cylon-ardrone@
+46 silly lockFile dea6e4d9-cylon-ardrone cylon-ardrone@
+47 silly resolved [ { name: 'cylon-ardrone',
+47 silly resolved     version: '0.17.0',
+47 silly resolved     main: 'lib/cylon-ardrone.js',
+47 silly resolved     description: 'Cylon module for the Parrot ARDrone 2.0',
+47 silly resolved     homepage: 'http://cylonjs.com',
+47 silly resolved     bugs: { url: 'https://github.com/hybridgroup/cylon-ardrone/issues' },
+47 silly resolved     author: { name: 'The Hybrid Group', email: 'cylonjs@hybridgroup.com' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'https://github.com/hybridgroup/cylon-ardrone' },
+47 silly resolved     license: 'Apache 2.0',
+47 silly resolved     devDependencies:
+47 silly resolved      { 'sinon-chai': '~2.4.0',
+47 silly resolved        chai: '~1.7.2',
+47 silly resolved        mocha: '~1.12.1',
+47 silly resolved        sinon: '~1.7.3',
+47 silly resolved        jshint: '~2.4.4' },
+47 silly resolved     peerDependencies: { cylon: '>= 0.22.0 < 1' },
+47 silly resolved     dependencies: { 'ar-drone': '>= 0.3.0', cylon: '~0.22.0' },
+47 silly resolved     gitHead: '5f72d3ad2ef3c0ff16f42f0aaf27066320a2eba9',
+47 silly resolved     _id: 'cylon-ardrone@0.17.0',
+47 silly resolved     scripts: {},
+47 silly resolved     _shasum: 'c7ef3d9c6bbcd74dd9f993c779ae9c3665e8a244',
+47 silly resolved     _from: 'cylon-ardrone@',
+47 silly resolved     _npmVersion: '2.1.18',
+47 silly resolved     _nodeVersion: '0.10.35',
+47 silly resolved     _npmUser: { name: 'andrewstewart', email: 'andrew@stwrt.ca' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: 'c7ef3d9c6bbcd74dd9f993c779ae9c3665e8a244',
+47 silly resolved        tarball: 'http://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/cylon-ardrone/-/cylon-ardrone-0.17.0.tgz' } ]
+48 info install cylon-ardrone@0.17.0 into /Users/cgerard
+49 info installOne cylon-ardrone@0.17.0
+50 verbose node_modules/cylon-ardrone unbuild
+51 verbose tar unpack /Users/cgerard/.npm/cylon-ardrone/0.17.0/package.tgz
+52 silly lockFile 36b1bcec-erard-node-modules-cylon-ardrone tar:///Users/cgerard/node_modules/cylon-ardrone
+53 verbose lock tar:///Users/cgerard/node_modules/cylon-ardrone /Users/cgerard/.npm/36b1bcec-erard-node-modules-cylon-ardrone.lock
+54 silly lockFile 17fef5d6-cylon-ardrone-0-17-0-package-tgz tar:///Users/cgerard/.npm/cylon-ardrone/0.17.0/package.tgz
+55 verbose lock tar:///Users/cgerard/.npm/cylon-ardrone/0.17.0/package.tgz /Users/cgerard/.npm/17fef5d6-cylon-ardrone-0-17-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry .npmignore
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry LICENSE
+61 silly gunzTarPerm extractEntry Makefile
+62 silly gunzTarPerm extractEntry .jshintrc
+63 silly gunzTarPerm extractEntry docs/commands_flight.md
+64 silly gunzTarPerm extractEntry docs/events_flight.md
+65 silly gunzTarPerm extractEntry docs/events_nav.md
+66 silly gunzTarPerm extractEntry examples/ardrone_dualshock3.js
+67 silly gunzTarPerm extractEntry examples/drone/drone.js
+68 silly gunzTarPerm extractEntry examples/drone/fluent-drone.js
+69 silly gunzTarPerm extractEntry examples/drone/drone.markdown
+70 silly gunzTarPerm extractEntry examples/drone_face_tracking/drone_face_tracking.js
+71 silly gunzTarPerm extractEntry examples/drone_face_tracking/fluent-drone_face_tracking.js
+72 silly gunzTarPerm extractEntry examples/drone_face_tracking/haarcascade_frontalface_alt.xml
+73 silly gunzTarPerm extractEntry examples/drone_nav/drone_nav.js
+74 silly gunzTarPerm extractEntry examples/drone_nav/fluent-drone_nav.js
+75 silly gunzTarPerm extractEntry examples/drone_nav/drone_nav.markdown
+76 silly gunzTarPerm extractEntry lib/ardrone.js
+77 silly gunzTarPerm extractEntry lib/commands.js
+78 silly gunzTarPerm extractEntry lib/cylon-ardrone.js
+79 silly gunzTarPerm extractEntry lib/flight.js
+80 silly gunzTarPerm extractEntry lib/nav.js
+81 silly gunzTarPerm extractEntry .travis.yml
+82 silly gunzTarPerm extractEntry spec/helper.js
+83 silly gunzTarPerm extractEntry spec/lib/ardrone.spec.js
+84 silly gunzTarPerm extractEntry spec/lib/cylon-ardrone.spec.js
+85 silly gunzTarPerm extractEntry spec/lib/flight.spec.js
+86 silly gunzTarPerm extractEntry spec/lib/nav.spec.js
+87 silly lockFile 36b1bcec-erard-node-modules-cylon-ardrone tar:///Users/cgerard/node_modules/cylon-ardrone
+88 silly lockFile 36b1bcec-erard-node-modules-cylon-ardrone tar:///Users/cgerard/node_modules/cylon-ardrone
+89 silly lockFile 17fef5d6-cylon-ardrone-0-17-0-package-tgz tar:///Users/cgerard/.npm/cylon-ardrone/0.17.0/package.tgz
+90 silly lockFile 17fef5d6-cylon-ardrone-0-17-0-package-tgz tar:///Users/cgerard/.npm/cylon-ardrone/0.17.0/package.tgz
+91 info preinstall cylon-ardrone@0.17.0
+92 verbose readDependencies using package.json deps
+93 verbose readDependencies using package.json deps
+94 verbose cache add [ 'ar-drone@>= 0.3.0', null ]
+95 verbose cache add name=undefined spec="ar-drone@>= 0.3.0" args=["ar-drone@>= 0.3.0",null]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: 'ar-drone@%3E=%200.3.0',
+96 verbose parsed url   path: 'ar-drone@%3E=%200.3.0',
+96 verbose parsed url   href: 'ar-drone@%3E=%200.3.0' }
+97 verbose cache add [ 'cylon@~0.22.0', null ]
+98 verbose cache add name=undefined spec="cylon@~0.22.0" args=["cylon@~0.22.0",null]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: 'cylon@~0.22.0',
+99 verbose parsed url   path: 'cylon@~0.22.0',
+99 verbose parsed url   href: 'cylon@~0.22.0' }
+100 verbose cache add name="ar-drone" spec=">= 0.3.0" args=["ar-drone",">= 0.3.0"]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: '%3E=%200.3.0',
+101 verbose parsed url   path: '%3E=%200.3.0',
+101 verbose parsed url   href: '%3E=%200.3.0' }
+102 verbose addNamed [ 'ar-drone', '>= 0.3.0' ]
+103 verbose addNamed [ null, '>=0.3.0' ]
+104 silly lockFile 25df95c4-ar-drone-0-3-0 ar-drone@>= 0.3.0
+105 verbose lock ar-drone@>= 0.3.0 /Users/cgerard/.npm/25df95c4-ar-drone-0-3-0.lock
+106 verbose cache add name="cylon" spec="~0.22.0" args=["cylon","~0.22.0"]
+107 verbose parsed url { protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: '~0.22.0',
+107 verbose parsed url   path: '~0.22.0',
+107 verbose parsed url   href: '~0.22.0' }
+108 verbose addNamed [ 'cylon', '~0.22.0' ]
+109 verbose addNamed [ null, '>=0.22.0-0 <0.23.0-0' ]
+110 silly lockFile 7faa58c9-cylon-0-22-0 cylon@~0.22.0
+111 verbose lock cylon@~0.22.0 /Users/cgerard/.npm/7faa58c9-cylon-0-22-0.lock
+112 silly addNameRange { name: 'ar-drone', range: '>=0.3.0', hasData: false }
+113 silly addNameRange { name: 'cylon', range: '>=0.22.0-0 <0.23.0-0', hasData: false }
+114 verbose request where is /ar-drone
+115 verbose request registry https://registry.npmjs.org/
+116 verbose url raw /ar-drone
+117 verbose url resolving [ 'https://registry.npmjs.org/', './ar-drone' ]
+118 verbose url resolved https://registry.npmjs.org/ar-drone
+119 verbose request where is https://registry.npmjs.org/ar-drone
+120 info trying registry request attempt 1 at 19:47:44
+121 verbose etag "78HGVOWZ3NSZDMY1EUL0J82HY"
+122 http GET https://registry.npmjs.org/ar-drone
+123 verbose request where is /cylon
+124 verbose request registry https://registry.npmjs.org/
+125 verbose url raw /cylon
+126 verbose url resolving [ 'https://registry.npmjs.org/', './cylon' ]
+127 verbose url resolved https://registry.npmjs.org/cylon
+128 verbose request where is https://registry.npmjs.org/cylon
+129 info trying registry request attempt 1 at 19:47:44
+130 verbose etag "964ZHYN8MEE46UILUJ2J239RR"
+131 http GET https://registry.npmjs.org/cylon
+132 http 200 https://registry.npmjs.org/ar-drone
+133 silly registry.get cb [ 200,
+133 silly registry.get   { date: 'Sun, 18 Jan 2015 08:47:45 GMT',
+133 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+133 silly registry.get     etag: '"C9N605BGVCFD1ZW15HX8DV26"',
+133 silly registry.get     'content-type': 'application/json',
+133 silly registry.get     'cache-control': 'max-age=60',
+133 silly registry.get     'content-length': '31368',
+133 silly registry.get     'accept-ranges': 'bytes',
+133 silly registry.get     via: '1.1 varnish',
+133 silly registry.get     age: '0',
+133 silly registry.get     'x-served-by': 'cache-syd1621-SYD',
+133 silly registry.get     'x-cache': 'MISS',
+133 silly registry.get     'x-cache-hits': '0',
+133 silly registry.get     'x-timer': 'S1421570864.241747,VS0,VE1354',
+133 silly registry.get     vary: 'Accept',
+133 silly registry.get     'keep-alive': 'timeout=10, max=50',
+133 silly registry.get     connection: 'Keep-Alive' } ]
+134 silly addNameRange number 2 { name: 'ar-drone', range: '>=0.3.0', hasData: true }
+135 silly addNameRange versions [ 'ar-drone',
+135 silly addNameRange   [ '0.0.1',
+135 silly addNameRange     '0.0.2',
+135 silly addNameRange     '0.0.3',
+135 silly addNameRange     '0.0.4',
+135 silly addNameRange     '0.0.5',
+135 silly addNameRange     '0.0.6',
+135 silly addNameRange     '0.1.0',
+135 silly addNameRange     '0.2.0',
+135 silly addNameRange     '0.2.1',
+135 silly addNameRange     '0.3.0',
+135 silly addNameRange     '0.3.1',
+135 silly addNameRange     '0.3.2',
+135 silly addNameRange     '0.3.3' ] ]
+136 verbose addNamed [ 'ar-drone', '0.3.3' ]
+137 verbose addNamed [ '0.3.3', '0.3.3' ]
+138 silly lockFile 3b0dcaf3-ar-drone-0-3-3 ar-drone@0.3.3
+139 verbose lock ar-drone@0.3.3 /Users/cgerard/.npm/3b0dcaf3-ar-drone-0-3-3.lock
+140 silly lockFile 4ecd97a8--org-ar-drone-ar-drone-0-3-3-tgz https://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz
+141 verbose lock https://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz /Users/cgerard/.npm/4ecd97a8--org-ar-drone-ar-drone-0-3-3-tgz.lock
+142 verbose addRemoteTarball [ 'https://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz',
+142 verbose addRemoteTarball   'd7b956e23f3f12d94a4e8b7a8f575b25cd69f69b' ]
+143 info retry fetch attempt 1 at 19:47:46
+144 verbose fetch to= /var/folders/x6/t99gwnpn29x2ntxc2bbln7cm0000gn/T/npm-49311-Tjoap6lt/registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz
+145 http GET https://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz
+146 http 200 https://registry.npmjs.org/cylon
+147 silly registry.get cb [ 200,
+147 silly registry.get   { date: 'Sun, 18 Jan 2015 08:47:45 GMT',
+147 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+147 silly registry.get     etag: '"F1RF3SN6ZM8294RXV2DV0EN60"',
+147 silly registry.get     'content-type': 'application/json',
+147 silly registry.get     'cache-control': 'max-age=60',
+147 silly registry.get     'content-length': '78641',
+147 silly registry.get     'accept-ranges': 'bytes',
+147 silly registry.get     via: '1.1 varnish',
+147 silly registry.get     age: '0',
+147 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+147 silly registry.get     'x-cache': 'MISS',
+147 silly registry.get     'x-cache-hits': '0',
+147 silly registry.get     'x-timer': 'S1421570864.241898,VS0,VE1580',
+147 silly registry.get     vary: 'Accept',
+147 silly registry.get     'keep-alive': 'timeout=10, max=50',
+147 silly registry.get     connection: 'Keep-Alive' } ]
+148 silly addNameRange number 2 { name: 'cylon', range: '>=0.22.0-0 <0.23.0-0', hasData: true }
+149 silly addNameRange versions [ 'cylon',
+149 silly addNameRange   [ '0.0.0',
+149 silly addNameRange     '0.1.0',
+149 silly addNameRange     '0.2.0',
+149 silly addNameRange     '0.3.0',
+149 silly addNameRange     '0.4.0',
+149 silly addNameRange     '0.5.0',
+149 silly addNameRange     '0.6.0',
+149 silly addNameRange     '0.6.1',
+149 silly addNameRange     '0.7.0',
+149 silly addNameRange     '0.8.0',
+149 silly addNameRange     '0.9.0',
+149 silly addNameRange     '0.9.2',
+149 silly addNameRange     '0.10.0',
+149 silly addNameRange     '0.10.1',
+149 silly addNameRange     '0.10.2',
+149 silly addNameRange     '0.10.3',
+149 silly addNameRange     '0.10.4',
+149 silly addNameRange     '0.11.0',
+149 silly addNameRange     '0.11.1',
+149 silly addNameRange     '0.11.2',
+149 silly addNameRange     '0.12.0',
+149 silly addNameRange     '0.13.0',
+149 silly addNameRange     '0.13.1',
+149 silly addNameRange     '0.13.2',
+149 silly addNameRange     '0.13.3',
+149 silly addNameRange     '0.14.0',
+149 silly addNameRange     '0.15.0',
+149 silly addNameRange     '0.15.1',
+149 silly addNameRange     '0.16.0',
+149 silly addNameRange     '0.17.0',
+149 silly addNameRange     '0.18.0',
+149 silly addNameRange     '0.19.0',
+149 silly addNameRange     '0.19.1',
+149 silly addNameRange     '0.20.0',
+149 silly addNameRange     '0.20.1',
+149 silly addNameRange     '0.20.2',
+149 silly addNameRange     '0.21.0',
+149 silly addNameRange     '0.21.1',
+149 silly addNameRange     '0.21.2',
+149 silly addNameRange     '0.22.0' ] ]
+150 verbose addNamed [ 'cylon', '0.22.0' ]
+151 verbose addNamed [ '0.22.0', '0.22.0' ]
+152 silly lockFile 59d47469-cylon-0-22-0 cylon@0.22.0
+153 verbose lock cylon@0.22.0 /Users/cgerard/.npm/59d47469-cylon-0-22-0.lock
+154 silly lockFile 1cc17030-npmjs-org-cylon-cylon-0-22-0-tgz https://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz
+155 verbose lock https://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz /Users/cgerard/.npm/1cc17030-npmjs-org-cylon-cylon-0-22-0-tgz.lock
+156 verbose addRemoteTarball [ 'https://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz',
+156 verbose addRemoteTarball   '155824d767d1c1e7915029b54096c794f156b8e3' ]
+157 info retry fetch attempt 1 at 19:47:46
+158 verbose fetch to= /var/folders/x6/t99gwnpn29x2ntxc2bbln7cm0000gn/T/npm-49311-Tjoap6lt/registry.npmjs.org/cylon/-/cylon-0.22.0.tgz
+159 http GET https://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz
+160 http 200 https://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz
+161 silly lockFile 1cc17030-npmjs-org-cylon-cylon-0-22-0-tgz https://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz
+162 silly lockFile 1cc17030-npmjs-org-cylon-cylon-0-22-0-tgz https://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz
+163 silly lockFile 59d47469-cylon-0-22-0 cylon@0.22.0
+164 silly lockFile 59d47469-cylon-0-22-0 cylon@0.22.0
+165 silly lockFile 7faa58c9-cylon-0-22-0 cylon@~0.22.0
+166 silly lockFile 7faa58c9-cylon-0-22-0 cylon@~0.22.0
+167 http 200 https://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz
+168 silly lockFile 4ecd97a8--org-ar-drone-ar-drone-0-3-3-tgz https://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz
+169 silly lockFile 4ecd97a8--org-ar-drone-ar-drone-0-3-3-tgz https://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz
+170 silly lockFile 3b0dcaf3-ar-drone-0-3-3 ar-drone@0.3.3
+171 silly lockFile 3b0dcaf3-ar-drone-0-3-3 ar-drone@0.3.3
+172 silly lockFile 25df95c4-ar-drone-0-3-0 ar-drone@>= 0.3.0
+173 silly lockFile 25df95c4-ar-drone-0-3-0 ar-drone@>= 0.3.0
+174 silly resolved [ { name: 'cylon',
+174 silly resolved     version: '0.22.0',
+174 silly resolved     main: 'lib/cylon.js',
+174 silly resolved     description: 'A JavaScript robotics framework for Node.js',
+174 silly resolved     homepage: 'http://cylonjs.com',
+174 silly resolved     bugs: { url: 'https://github.com/hybridgroup/cylon/issues' },
+174 silly resolved     author: { name: 'The Hybrid Group', email: 'cylonjs@hybridgroup.com' },
+174 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+174 silly resolved     repository: { type: 'git', url: 'https://github.com/hybridgroup/cylon' },
+174 silly resolved     license: 'Apache 2.0',
+174 silly resolved     hardware: { '*': false, './': false, async: true, './lib': true },
+174 silly resolved     engines: { node: '>= 0.10.20' },
+174 silly resolved     devDependencies:
+174 silly resolved      { 'sinon-chai': '2.6.0',
+174 silly resolved        chai: '1.10.0',
+174 silly resolved        mocha: '2.0.1',
+174 silly resolved        sinon: '1.12.1' },
+174 silly resolved     dependencies: { async: '0.9.0' },
+174 silly resolved     gitHead: 'c52971dcec5d548187b8f06b531b521a3026828f',
+174 silly resolved     _id: 'cylon@0.22.0',
+174 silly resolved     scripts: {},
+174 silly resolved     _shasum: '155824d767d1c1e7915029b54096c794f156b8e3',
+174 silly resolved     _from: 'cylon@~0.22.0',
+174 silly resolved     _npmVersion: '2.1.18',
+174 silly resolved     _nodeVersion: '0.10.35',
+174 silly resolved     _npmUser: { name: 'andrewstewart', email: 'andrew@stwrt.ca' },
+174 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+174 silly resolved     dist:
+174 silly resolved      { shasum: '155824d767d1c1e7915029b54096c794f156b8e3',
+174 silly resolved        tarball: 'http://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz' },
+174 silly resolved     directories: {},
+174 silly resolved     _resolved: 'https://registry.npmjs.org/cylon/-/cylon-0.22.0.tgz' },
+174 silly resolved   { author:
+174 silly resolved      { name: 'Felix Geisendörfer',
+174 silly resolved        email: 'felix@debuggable.com',
+174 silly resolved        url: 'http://debuggable.com/' },
+174 silly resolved     name: 'ar-drone',
+174 silly resolved     description: 'A node.js client for controlling Parrot AR Drone 2.0 quad-copters.',
+174 silly resolved     version: '0.3.3',
+174 silly resolved     homepage: 'https://github.com/felixge/node-ar-drone',
+174 silly resolved     repository:
+174 silly resolved      { type: 'git',
+174 silly resolved        url: 'git://github.com/felixge/node-ar-drone.git' },
+174 silly resolved     main: './index',
+174 silly resolved     scripts:
+174 silly resolved      { pretest: 'node_modules/jshint/bin/jshint -c .jshintrc examples/ lib/ test/ index.js',
+174 silly resolved        test: 'node test/run.js' },
+174 silly resolved     dependencies: { buffy: '0.0.4', 'simple-debug': '~1.1.1' },
+174 silly resolved     devDependencies: { utest: '0.0.6', urun: '0.0.6', sinon: '1.4.2', jshint: '2.3.0' },
+174 silly resolved     optionalDependencies: {},
+174 silly resolved     engines: { node: '*' },
+174 silly resolved     bugs: { url: 'https://github.com/felixge/node-ar-drone/issues' },
+174 silly resolved     _id: 'ar-drone@0.3.3',
+174 silly resolved     dist:
+174 silly resolved      { shasum: 'd7b956e23f3f12d94a4e8b7a8f575b25cd69f69b',
+174 silly resolved        tarball: 'http://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz' },
+174 silly resolved     _from: 'ar-drone@>= 0.3.0',
+174 silly resolved     _npmVersion: '1.4.3',
+174 silly resolved     _npmUser: { name: 'felixge', email: 'felix@debuggable.com' },
+174 silly resolved     maintainers:
+174 silly resolved      [ [Object],
+174 silly resolved        [Object],
+174 silly resolved        [Object],
+174 silly resolved        [Object],
+174 silly resolved        [Object],
+174 silly resolved        [Object],
+174 silly resolved        [Object],
+174 silly resolved        [Object] ],
+174 silly resolved     directories: {},
+174 silly resolved     _shasum: 'd7b956e23f3f12d94a4e8b7a8f575b25cd69f69b',
+174 silly resolved     _resolved: 'https://registry.npmjs.org/ar-drone/-/ar-drone-0.3.3.tgz' } ]
+175 info install cylon@0.22.0 into /Users/cgerard/node_modules/cylon-ardrone
+176 info install ar-drone@0.3.3 into /Users/cgerard/node_modules/cylon-ardrone
+177 info installOne cylon@0.22.0
+178 info installOne ar-drone@0.3.3
+179 verbose node_modules/cylon-ardrone/node_modules/cylon unbuild
+180 verbose node_modules/cylon-ardrone/node_modules/ar-drone unbuild
+181 verbose tar unpack /Users/cgerard/.npm/cylon/0.22.0/package.tgz
+182 silly lockFile c80a1126-cylon-ardrone-node-modules-cylon tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon
+183 verbose lock tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon /Users/cgerard/.npm/c80a1126-cylon-ardrone-node-modules-cylon.lock
+184 silly lockFile e20a39d7-ard-npm-cylon-0-22-0-package-tgz tar:///Users/cgerard/.npm/cylon/0.22.0/package.tgz
+185 verbose lock tar:///Users/cgerard/.npm/cylon/0.22.0/package.tgz /Users/cgerard/.npm/e20a39d7-ard-npm-cylon-0-22-0-package-tgz.lock
+186 verbose tar unpack /Users/cgerard/.npm/ar-drone/0.3.3/package.tgz
+187 silly lockFile 6351927d-on-ardrone-node-modules-ar-drone tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone
+188 verbose lock tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone /Users/cgerard/.npm/6351927d-on-ardrone-node-modules-ar-drone.lock
+189 silly lockFile 03a692c0-d-npm-ar-drone-0-3-3-package-tgz tar:///Users/cgerard/.npm/ar-drone/0.3.3/package.tgz
+190 verbose lock tar:///Users/cgerard/.npm/ar-drone/0.3.3/package.tgz /Users/cgerard/.npm/03a692c0-d-npm-ar-drone-0-3-3-package-tgz.lock
+191 silly gunzTarPerm modes [ '755', '644' ]
+192 silly gunzTarPerm modes [ '755', '644' ]
+193 silly gunzTarPerm extractEntry package.json
+194 silly gunzTarPerm extractEntry .npmignore
+195 silly gunzTarPerm extractEntry LICENSE
+196 silly gunzTarPerm extractEntry package.json
+197 silly gunzTarPerm extractEntry .npmignore
+198 silly gunzTarPerm extractEntry README.md
+199 silly gunzTarPerm extractEntry README.markdown
+200 silly gunzTarPerm extractEntry CONTRIBUTORS.markdown
+201 silly gunzTarPerm extractEntry LICENSE
+202 silly gunzTarPerm extractEntry Makefile
+203 silly gunzTarPerm extractEntry .jshintrc
+204 silly gunzTarPerm extractEntry cutout.js
+205 silly gunzTarPerm extractEntry index.js
+206 silly gunzTarPerm extractEntry examples/leap_arduino/leap_arduino.js
+207 silly gunzTarPerm extractEntry examples/leap_arduino/leap_arduino.markdown
+208 silly gunzTarPerm extractEntry takeoff.js
+209 silly gunzTarPerm extractEntry NEXT.md
+210 silly gunzTarPerm extractEntry .travis.yml
+211 silly gunzTarPerm extractEntry CONTRIBUTING.md
+212 silly gunzTarPerm extractEntry examples/api/api.js
+213 silly gunzTarPerm extractEntry examples/api/api.markdown
+214 silly gunzTarPerm extractEntry examples/cattoy/cattoy.js
+215 silly gunzTarPerm extractEntry examples/cattoy/cattoy.markdown
+216 silly gunzTarPerm extractEntry examples/png-stream.js
+217 silly gunzTarPerm extractEntry examples/save-video-stream.js
+218 silly gunzTarPerm extractEntry examples/conway_sphero/conway_sphero.js
+219 silly gunzTarPerm extractEntry examples/conway_sphero/fluent-conway_sphero.js
+220 silly gunzTarPerm extractEntry examples/simple_flight.js
+221 silly gunzTarPerm extractEntry examples/tcp-video-stream.js
+222 silly gunzTarPerm extractEntry examples/tweet_repl.js
+223 silly gunzTarPerm extractEntry examples/udp-control.js
+224 silly gunzTarPerm extractEntry examples/conway_sphero/conway_sphero.markdown
+225 silly gunzTarPerm extractEntry examples/crazyflie/crazyflie.js
+226 silly gunzTarPerm extractEntry Changes.md
+227 silly gunzTarPerm extractEntry journal/2012-11-06.md
+228 silly gunzTarPerm extractEntry examples/crazyflie/crazyflie.markdown
+229 silly gunzTarPerm extractEntry examples/digispark_blink/blink.js
+230 silly gunzTarPerm extractEntry journal/2012-11-07.md
+231 silly gunzTarPerm extractEntry journal/2012-11-08.md
+232 silly gunzTarPerm extractEntry examples/digispark_blink/blink.markdown
+233 silly gunzTarPerm extractEntry examples/halt/halt.js
+234 silly gunzTarPerm extractEntry lib/Client.js
+235 silly gunzTarPerm extractEntry lib/Repl.js
+236 silly gunzTarPerm extractEntry examples/hello/fluent-hello.js
+237 silly gunzTarPerm extractEntry examples/hello/hello.js
+238 silly gunzTarPerm extractEntry lib/constants.js
+239 silly gunzTarPerm extractEntry lib/control/AtCommand.js
+240 silly gunzTarPerm extractEntry examples/hello/hello.markdown
+241 silly gunzTarPerm extractEntry examples/keyboard/keyboard.js
+242 silly gunzTarPerm extractEntry lib/control/AtCommandCreator.js
+243 silly gunzTarPerm extractEntry lib/control/UdpControl.js
+244 silly gunzTarPerm extractEntry examples/keyboard/keyboard.markdown
+245 silly gunzTarPerm extractEntry examples/leap_ardrone/leap_ardrone.js
+246 silly gunzTarPerm extractEntry lib/control/at.js
+247 silly gunzTarPerm extractEntry lib/misc/meta.js
+248 silly gunzTarPerm extractEntry examples/leap_ardrone/leap_ardrone.markdown
+249 silly gunzTarPerm extractEntry examples/arduinos_and_skynet/multiple_arduinos_multiple_skynet_connections.js
+250 silly gunzTarPerm extractEntry lib/navdata/NavdataReader.js
+251 silly gunzTarPerm extractEntry lib/navdata/UdpNavdataStream.js
+252 silly gunzTarPerm extractEntry examples/arduinos_and_skynet/multiple_arduinos_one_skynet_connection.js
+253 silly gunzTarPerm extractEntry examples/master/master.js
+254 silly gunzTarPerm extractEntry lib/navdata/maskingFunctions.js
+255 silly gunzTarPerm extractEntry lib/navdata/parseNavdata.js
+256 silly gunzTarPerm extractEntry examples/master/master.markdown
+257 silly gunzTarPerm extractEntry examples/rapiro/rapiro_servo.js
+258 silly gunzTarPerm extractEntry lib/video/PaVEParser.js
+259 silly gunzTarPerm extractEntry lib/video/PngEncoder.js
+260 silly gunzTarPerm extractEntry lib/video/PngSplitter.js
+261 silly gunzTarPerm extractEntry lib/video/PngStream.js
+262 silly gunzTarPerm extractEntry examples/robot_commands/robot_commands.js
+263 silly gunzTarPerm extractEntry examples/robot_commands/robot_commands.markdown
+264 silly gunzTarPerm extractEntry examples/salesforce/salesforce.js
+265 silly gunzTarPerm extractEntry examples/salesforce/salesforce.markdown
+266 silly gunzTarPerm extractEntry lib/video/TcpVideoStream.js
+267 silly gunzTarPerm extractEntry .jshintrc
+268 silly gunzTarPerm extractEntry examples/sf-sphero/sf-sphero.js
+269 silly gunzTarPerm extractEntry examples/sf-sphero/sf-sphero.markdown
+270 silly gunzTarPerm extractEntry Makefile
+271 silly gunzTarPerm extractEntry test/common.js
+272 silly gunzTarPerm extractEntry test/run.js
+273 silly gunzTarPerm extractEntry test/fixtures/navdata.bin
+274 silly gunzTarPerm extractEntry examples/skynet/skynet-blink.js
+275 silly gunzTarPerm extractEntry examples/skynet/skynet-blink.markdown
+276 silly gunzTarPerm extractEntry examples/sphero-pebble-sf/sphero-pebble-sf.js
+277 silly gunzTarPerm extractEntry examples/sphero-pebble-sf/sphero-pebble-sf.markdown
+278 silly gunzTarPerm extractEntry test/fixtures/pave-68.bin
+279 silly gunzTarPerm extractEntry test/fixtures/pave.bin
+280 silly gunzTarPerm extractEntry examples/sphero_shakeometer/sphero_shakeometer.js
+281 silly gunzTarPerm extractEntry examples/travis/travis.js
+282 silly gunzTarPerm extractEntry examples/travis/travis.markdown
+283 silly gunzTarPerm extractEntry freenode.txt
+284 silly gunzTarPerm extractEntry test/integration/control/UdpControl/test-message-flushing.js
+285 silly gunzTarPerm extractEntry lib/adaptor.js
+286 silly gunzTarPerm extractEntry lib/connection.js
+287 silly gunzTarPerm extractEntry test/integration/video/PngEncoder/test-sample-encode.js
+288 silly gunzTarPerm extractEntry test/integration/video/TcpVideoStream/test-connection-timeout.js
+289 silly gunzTarPerm extractEntry lib/cylon.js
+290 silly gunzTarPerm extractEntry lib/device.js
+291 silly gunzTarPerm extractEntry test/integration/video/TcpVideoStream/test-normal-connection.js
+292 silly gunzTarPerm extractEntry test/unit/test-Client.js
+293 silly gunzTarPerm extractEntry lib/config.js
+294 silly gunzTarPerm extractEntry lib/basestar.js
+295 silly gunzTarPerm extractEntry test/unit/test-index.js
+296 silly gunzTarPerm extractEntry test/unit/control/test-AtCommand.js
+297 silly gunzTarPerm extractEntry lib/lodash.js
+298 silly gunzTarPerm extractEntry lib/robot.js
+299 silly gunzTarPerm extractEntry test/unit/control/test-AtCommandCreator.js
+300 silly gunzTarPerm extractEntry test/unit/control/test-UdpControl.js
+301 silly gunzTarPerm extractEntry test/unit/control/test-at.js
+302 silly gunzTarPerm extractEntry test/unit/misc/test-meta.js
+303 silly gunzTarPerm extractEntry test/unit/navdata/test-UdpNavdataStream.js
+304 silly gunzTarPerm extractEntry test/unit/navdata/test-parseNavdata.js
+305 silly gunzTarPerm extractEntry test/unit/video/test-PaVEParser.js
+306 silly gunzTarPerm extractEntry test/unit/video/test-PngEncoder.js
+307 silly gunzTarPerm extractEntry test/unit/video/test-PngStream.js
+308 silly gunzTarPerm extractEntry test/unit/video/test-TcpVideoStream.js
+309 silly gunzTarPerm extractEntry lib/logger.js
+310 silly gunzTarPerm extractEntry lib/registry.js
+311 silly gunzTarPerm extractEntry lib/driver.js
+312 silly gunzTarPerm extractEntry lib/utils.js
+313 silly gunzTarPerm extractEntry lib/logger/basic_logger.js
+314 silly gunzTarPerm extractEntry lib/logger/null_logger.js
+315 silly gunzTarPerm extractEntry lib/test/loopback.js
+316 silly gunzTarPerm extractEntry lib/test/ping.js
+317 silly gunzTarPerm extractEntry lib/test/test-adaptor.js
+318 silly gunzTarPerm extractEntry lib/test/test-driver.js
+319 silly gunzTarPerm extractEntry lib/io/digital-pin.js
+320 silly gunzTarPerm extractEntry lib/io/utils.js
+321 silly gunzTarPerm extractEntry .travis.yml
+322 silly gunzTarPerm extractEntry spec/helper.js
+323 silly gunzTarPerm extractEntry spec/lib/adaptor.spec.js
+324 silly gunzTarPerm extractEntry spec/lib/connection.spec.js
+325 silly gunzTarPerm extractEntry spec/lib/cylon.spec.js
+326 silly gunzTarPerm extractEntry spec/lib/device.spec.js
+327 silly gunzTarPerm extractEntry spec/lib/digital-pin.spec.js
+328 silly gunzTarPerm extractEntry spec/lib/basestar.spec.js
+329 silly gunzTarPerm extractEntry spec/lib/robot.spec.js
+330 silly gunzTarPerm extractEntry spec/lib/registry.spec.js
+331 silly gunzTarPerm extractEntry spec/lib/logger.spec.js
+332 silly gunzTarPerm extractEntry spec/lib/utils.spec.js
+333 silly gunzTarPerm extractEntry spec/lib/driver.spec.js
+334 silly gunzTarPerm extractEntry spec/lib/logger/basic_logger.spec.js
+335 silly gunzTarPerm extractEntry spec/lib/io/utils.js
+336 silly gunzTarPerm extractEntry spec/support/mock_module.js
+337 silly lockFile 6351927d-on-ardrone-node-modules-ar-drone tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone
+338 silly lockFile 6351927d-on-ardrone-node-modules-ar-drone tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone
+339 silly lockFile 03a692c0-d-npm-ar-drone-0-3-3-package-tgz tar:///Users/cgerard/.npm/ar-drone/0.3.3/package.tgz
+340 silly lockFile 03a692c0-d-npm-ar-drone-0-3-3-package-tgz tar:///Users/cgerard/.npm/ar-drone/0.3.3/package.tgz
+341 info preinstall ar-drone@0.3.3
+342 verbose readDependencies using package.json deps
+343 verbose readDependencies using package.json deps
+344 verbose cache add [ 'buffy@0.0.4', null ]
+345 verbose cache add name=undefined spec="buffy@0.0.4" args=["buffy@0.0.4",null]
+346 verbose parsed url { protocol: null,
+346 verbose parsed url   slashes: null,
+346 verbose parsed url   auth: null,
+346 verbose parsed url   host: null,
+346 verbose parsed url   port: null,
+346 verbose parsed url   hostname: null,
+346 verbose parsed url   hash: null,
+346 verbose parsed url   search: null,
+346 verbose parsed url   query: null,
+346 verbose parsed url   pathname: 'buffy@0.0.4',
+346 verbose parsed url   path: 'buffy@0.0.4',
+346 verbose parsed url   href: 'buffy@0.0.4' }
+347 verbose cache add [ 'simple-debug@~1.1.1', null ]
+348 verbose cache add name=undefined spec="simple-debug@~1.1.1" args=["simple-debug@~1.1.1",null]
+349 verbose parsed url { protocol: null,
+349 verbose parsed url   slashes: null,
+349 verbose parsed url   auth: null,
+349 verbose parsed url   host: null,
+349 verbose parsed url   port: null,
+349 verbose parsed url   hostname: null,
+349 verbose parsed url   hash: null,
+349 verbose parsed url   search: null,
+349 verbose parsed url   query: null,
+349 verbose parsed url   pathname: 'simple-debug@~1.1.1',
+349 verbose parsed url   path: 'simple-debug@~1.1.1',
+349 verbose parsed url   href: 'simple-debug@~1.1.1' }
+350 verbose cache add name="buffy" spec="0.0.4" args=["buffy","0.0.4"]
+351 verbose parsed url { protocol: null,
+351 verbose parsed url   slashes: null,
+351 verbose parsed url   auth: null,
+351 verbose parsed url   host: null,
+351 verbose parsed url   port: null,
+351 verbose parsed url   hostname: null,
+351 verbose parsed url   hash: null,
+351 verbose parsed url   search: null,
+351 verbose parsed url   query: null,
+351 verbose parsed url   pathname: '0.0.4',
+351 verbose parsed url   path: '0.0.4',
+351 verbose parsed url   href: '0.0.4' }
+352 verbose addNamed [ 'buffy', '0.0.4' ]
+353 verbose addNamed [ '0.0.4', '0.0.4' ]
+354 silly lockFile 179ba96e-buffy-0-0-4 buffy@0.0.4
+355 verbose lock buffy@0.0.4 /Users/cgerard/.npm/179ba96e-buffy-0-0-4.lock
+356 verbose cache add name="simple-debug" spec="~1.1.1" args=["simple-debug","~1.1.1"]
+357 verbose parsed url { protocol: null,
+357 verbose parsed url   slashes: null,
+357 verbose parsed url   auth: null,
+357 verbose parsed url   host: null,
+357 verbose parsed url   port: null,
+357 verbose parsed url   hostname: null,
+357 verbose parsed url   hash: null,
+357 verbose parsed url   search: null,
+357 verbose parsed url   query: null,
+357 verbose parsed url   pathname: '~1.1.1',
+357 verbose parsed url   path: '~1.1.1',
+357 verbose parsed url   href: '~1.1.1' }
+358 verbose addNamed [ 'simple-debug', '~1.1.1' ]
+359 verbose addNamed [ null, '>=1.1.1-0 <1.2.0-0' ]
+360 silly lockFile a13e5f5c-simple-debug-1-1-1 simple-debug@~1.1.1
+361 verbose lock simple-debug@~1.1.1 /Users/cgerard/.npm/a13e5f5c-simple-debug-1-1-1.lock
+362 silly addNameRange { name: 'simple-debug',
+362 silly addNameRange   range: '>=1.1.1-0 <1.2.0-0',
+362 silly addNameRange   hasData: false }
+363 verbose request where is /buffy
+364 verbose request registry https://registry.npmjs.org/
+365 verbose url raw /buffy
+366 verbose url resolving [ 'https://registry.npmjs.org/', './buffy' ]
+367 verbose url resolved https://registry.npmjs.org/buffy
+368 verbose request where is https://registry.npmjs.org/buffy
+369 info trying registry request attempt 1 at 19:47:50
+370 verbose etag "PXXNRTXBOMAS4C8WU2CVUIWA"
+371 http GET https://registry.npmjs.org/buffy
+372 verbose request where is /simple-debug
+373 verbose request registry https://registry.npmjs.org/
+374 verbose url raw /simple-debug
+375 verbose url resolving [ 'https://registry.npmjs.org/', './simple-debug' ]
+376 verbose url resolved https://registry.npmjs.org/simple-debug
+377 verbose request where is https://registry.npmjs.org/simple-debug
+378 info trying registry request attempt 1 at 19:47:50
+379 verbose etag "1JL1JYVL70K71ARW69KFKF6S9"
+380 http GET https://registry.npmjs.org/simple-debug
+381 silly lockFile c80a1126-cylon-ardrone-node-modules-cylon tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon
+382 silly lockFile c80a1126-cylon-ardrone-node-modules-cylon tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon
+383 silly lockFile e20a39d7-ard-npm-cylon-0-22-0-package-tgz tar:///Users/cgerard/.npm/cylon/0.22.0/package.tgz
+384 silly lockFile e20a39d7-ard-npm-cylon-0-22-0-package-tgz tar:///Users/cgerard/.npm/cylon/0.22.0/package.tgz
+385 info preinstall cylon@0.22.0
+386 verbose readDependencies using package.json deps
+387 verbose readDependencies using package.json deps
+388 verbose cache add [ 'async@0.9.0', null ]
+389 verbose cache add name=undefined spec="async@0.9.0" args=["async@0.9.0",null]
+390 verbose parsed url { protocol: null,
+390 verbose parsed url   slashes: null,
+390 verbose parsed url   auth: null,
+390 verbose parsed url   host: null,
+390 verbose parsed url   port: null,
+390 verbose parsed url   hostname: null,
+390 verbose parsed url   hash: null,
+390 verbose parsed url   search: null,
+390 verbose parsed url   query: null,
+390 verbose parsed url   pathname: 'async@0.9.0',
+390 verbose parsed url   path: 'async@0.9.0',
+390 verbose parsed url   href: 'async@0.9.0' }
+391 verbose cache add name="async" spec="0.9.0" args=["async","0.9.0"]
+392 verbose parsed url { protocol: null,
+392 verbose parsed url   slashes: null,
+392 verbose parsed url   auth: null,
+392 verbose parsed url   host: null,
+392 verbose parsed url   port: null,
+392 verbose parsed url   hostname: null,
+392 verbose parsed url   hash: null,
+392 verbose parsed url   search: null,
+392 verbose parsed url   query: null,
+392 verbose parsed url   pathname: '0.9.0',
+392 verbose parsed url   path: '0.9.0',
+392 verbose parsed url   href: '0.9.0' }
+393 verbose addNamed [ 'async', '0.9.0' ]
+394 verbose addNamed [ '0.9.0', '0.9.0' ]
+395 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+396 verbose lock async@0.9.0 /Users/cgerard/.npm/9a58a886-async-0-9-0.lock
+397 verbose request where is /async
+398 verbose request registry https://registry.npmjs.org/
+399 verbose url raw /async
+400 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+401 verbose url resolved https://registry.npmjs.org/async
+402 verbose request where is https://registry.npmjs.org/async
+403 info trying registry request attempt 1 at 19:47:50
+404 verbose etag "5T2W7Y64A5JSV7S9SG8WBWL5F"
+405 http GET https://registry.npmjs.org/async
+406 http 200 https://registry.npmjs.org/async
+407 silly registry.get cb [ 200,
+407 silly registry.get   { date: 'Sun, 18 Jan 2015 08:47:50 GMT',
+407 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+407 silly registry.get     etag: '"7I8NRMN7LLXBX5242QNINEG21"',
+407 silly registry.get     'content-type': 'application/json',
+407 silly registry.get     'cache-control': 'max-age=60',
+407 silly registry.get     'content-length': '106900',
+407 silly registry.get     'accept-ranges': 'bytes',
+407 silly registry.get     via: '1.1 varnish',
+407 silly registry.get     age: '0',
+407 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+407 silly registry.get     'x-cache': 'HIT',
+407 silly registry.get     'x-cache-hits': '1',
+407 silly registry.get     'x-timer': 'S1421570869.822955,VS0,VE261',
+407 silly registry.get     vary: 'Accept',
+407 silly registry.get     'keep-alive': 'timeout=10, max=50',
+407 silly registry.get     connection: 'Keep-Alive' } ]
+408 silly lockFile 282f4be9--npmjs-org-async-async-0-9-0-tgz https://registry.npmjs.org/async/-/async-0.9.0.tgz
+409 verbose lock https://registry.npmjs.org/async/-/async-0.9.0.tgz /Users/cgerard/.npm/282f4be9--npmjs-org-async-async-0-9-0-tgz.lock
+410 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+410 verbose addRemoteTarball   'ac3613b1da9bed1b47510bb4651b8931e47146c7' ]
+411 info retry fetch attempt 1 at 19:47:50
+412 verbose fetch to= /var/folders/x6/t99gwnpn29x2ntxc2bbln7cm0000gn/T/npm-49311-Tjoap6lt/registry.npmjs.org/async/-/async-0.9.0.tgz
+413 http GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+414 http 200 https://registry.npmjs.org/async/-/async-0.9.0.tgz
+415 silly lockFile 282f4be9--npmjs-org-async-async-0-9-0-tgz https://registry.npmjs.org/async/-/async-0.9.0.tgz
+416 silly lockFile 282f4be9--npmjs-org-async-async-0-9-0-tgz https://registry.npmjs.org/async/-/async-0.9.0.tgz
+417 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+418 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+419 silly resolved [ { name: 'async',
+419 silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+419 silly resolved     main: './lib/async',
+419 silly resolved     author: { name: 'Caolan McMahon' },
+419 silly resolved     version: '0.9.0',
+419 silly resolved     repository: { type: 'git', url: 'https://github.com/caolan/async.git' },
+419 silly resolved     bugs: { url: 'https://github.com/caolan/async/issues' },
+419 silly resolved     licenses: [ [Object] ],
+419 silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+419 silly resolved     jam: { main: 'lib/async.js', include: [Object] },
+419 silly resolved     scripts: { test: 'nodeunit test/test-async.js' },
+419 silly resolved     homepage: 'https://github.com/caolan/async',
+419 silly resolved     _id: 'async@0.9.0',
+419 silly resolved     dist:
+419 silly resolved      { shasum: 'ac3613b1da9bed1b47510bb4651b8931e47146c7',
+419 silly resolved        tarball: 'http://registry.npmjs.org/async/-/async-0.9.0.tgz' },
+419 silly resolved     _from: 'async@0.9.0',
+419 silly resolved     _npmVersion: '1.4.3',
+419 silly resolved     _npmUser: { name: 'caolan', email: 'caolan.mcmahon@gmail.com' },
+419 silly resolved     maintainers: [ [Object] ],
+419 silly resolved     directories: {},
+419 silly resolved     _shasum: 'ac3613b1da9bed1b47510bb4651b8931e47146c7',
+419 silly resolved     _resolved: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz' } ]
+420 info install async@0.9.0 into /Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon
+421 info installOne async@0.9.0
+422 verbose node_modules/cylon-ardrone/node_modules/cylon/node_modules/async unbuild
+423 verbose tar unpack /Users/cgerard/.npm/async/0.9.0/package.tgz
+424 silly lockFile abf4341d-modules-cylon-node-modules-async tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon/node_modules/async
+425 verbose lock tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon/node_modules/async /Users/cgerard/.npm/abf4341d-modules-cylon-node-modules-async.lock
+426 silly lockFile d5bd64dd-rard-npm-async-0-9-0-package-tgz tar:///Users/cgerard/.npm/async/0.9.0/package.tgz
+427 verbose lock tar:///Users/cgerard/.npm/async/0.9.0/package.tgz /Users/cgerard/.npm/d5bd64dd-rard-npm-async-0-9-0-package-tgz.lock
+428 silly gunzTarPerm modes [ '755', '644' ]
+429 silly gunzTarPerm extractEntry package.json
+430 silly gunzTarPerm extractEntry README.md
+431 silly gunzTarPerm extractEntry LICENSE
+432 silly gunzTarPerm extractEntry .travis.yml
+433 silly gunzTarPerm extractEntry component.json
+434 silly gunzTarPerm extractEntry lib/async.js
+435 silly lockFile abf4341d-modules-cylon-node-modules-async tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon/node_modules/async
+436 silly lockFile abf4341d-modules-cylon-node-modules-async tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon/node_modules/async
+437 silly lockFile d5bd64dd-rard-npm-async-0-9-0-package-tgz tar:///Users/cgerard/.npm/async/0.9.0/package.tgz
+438 silly lockFile d5bd64dd-rard-npm-async-0-9-0-package-tgz tar:///Users/cgerard/.npm/async/0.9.0/package.tgz
+439 info preinstall async@0.9.0
+440 verbose readDependencies using package.json deps
+441 verbose readDependencies using package.json deps
+442 silly resolved []
+443 verbose about to build /Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon/node_modules/async
+444 info build /Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon/node_modules/async
+445 verbose linkStuff [ false,
+445 verbose linkStuff   false,
+445 verbose linkStuff   false,
+445 verbose linkStuff   '/Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon/node_modules' ]
+446 info linkStuff async@0.9.0
+447 verbose linkBins async@0.9.0
+448 verbose linkMans async@0.9.0
+449 verbose rebuildBundles async@0.9.0
+450 info install async@0.9.0
+451 info postinstall async@0.9.0
+452 verbose about to build /Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon
+453 info build /Users/cgerard/node_modules/cylon-ardrone/node_modules/cylon
+454 verbose linkStuff [ false,
+454 verbose linkStuff   false,
+454 verbose linkStuff   false,
+454 verbose linkStuff   '/Users/cgerard/node_modules/cylon-ardrone/node_modules' ]
+455 info linkStuff cylon@0.22.0
+456 verbose linkBins cylon@0.22.0
+457 verbose linkMans cylon@0.22.0
+458 verbose rebuildBundles cylon@0.22.0
+459 verbose rebuildBundles [ 'async' ]
+460 info install cylon@0.22.0
+461 info postinstall cylon@0.22.0
+462 http 200 https://registry.npmjs.org/simple-debug
+463 silly registry.get cb [ 200,
+463 silly registry.get   { date: 'Sun, 18 Jan 2015 08:47:50 GMT',
+463 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+463 silly registry.get     etag: '"494HCU6S3J8W19LP7ZULUI3FL"',
+463 silly registry.get     'content-type': 'application/json',
+463 silly registry.get     'cache-control': 'max-age=60',
+463 silly registry.get     'content-length': '12944',
+463 silly registry.get     'accept-ranges': 'bytes',
+463 silly registry.get     via: '1.1 varnish',
+463 silly registry.get     age: '0',
+463 silly registry.get     'x-served-by': 'cache-syd1623-SYD',
+463 silly registry.get     'x-cache': 'MISS',
+463 silly registry.get     'x-cache-hits': '0',
+463 silly registry.get     'x-timer': 'S1421570869.823315,VS0,VE1082',
+463 silly registry.get     vary: 'Accept',
+463 silly registry.get     'keep-alive': 'timeout=10, max=50',
+463 silly registry.get     connection: 'Keep-Alive' } ]
+464 silly addNameRange number 2 { name: 'simple-debug',
+464 silly addNameRange   range: '>=1.1.1-0 <1.2.0-0',
+464 silly addNameRange   hasData: true }
+465 silly addNameRange versions [ 'simple-debug', [ '1.0.0', '1.1.0', '1.1.1', '1.1.2' ] ]
+466 verbose addNamed [ 'simple-debug', '1.1.2' ]
+467 verbose addNamed [ '1.1.2', '1.1.2' ]
+468 silly lockFile b9b865be-simple-debug-1-1-2 simple-debug@1.1.2
+469 verbose lock simple-debug@1.1.2 /Users/cgerard/.npm/b9b865be-simple-debug-1-1-2.lock
+470 silly lockFile b9b865be-simple-debug-1-1-2 simple-debug@1.1.2
+471 silly lockFile b9b865be-simple-debug-1-1-2 simple-debug@1.1.2
+472 silly lockFile a13e5f5c-simple-debug-1-1-1 simple-debug@~1.1.1
+473 silly lockFile a13e5f5c-simple-debug-1-1-1 simple-debug@~1.1.1
+474 http 200 https://registry.npmjs.org/buffy
+475 silly registry.get cb [ 200,
+475 silly registry.get   { date: 'Sun, 18 Jan 2015 08:47:51 GMT',
+475 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+475 silly registry.get     etag: '"3EF1ERSI5D2IQHZA4TH95F4QF"',
+475 silly registry.get     'content-type': 'application/json',
+475 silly registry.get     'cache-control': 'max-age=60',
+475 silly registry.get     'content-length': '14584',
+475 silly registry.get     'accept-ranges': 'bytes',
+475 silly registry.get     via: '1.1 varnish',
+475 silly registry.get     age: '0',
+475 silly registry.get     'x-served-by': 'cache-syd1621-SYD',
+475 silly registry.get     'x-cache': 'MISS',
+475 silly registry.get     'x-cache-hits': '0',
+475 silly registry.get     'x-timer': 'S1421570869.815075,VS0,VE1317',
+475 silly registry.get     vary: 'Accept',
+475 silly registry.get     'keep-alive': 'timeout=10, max=50',
+475 silly registry.get     connection: 'Keep-Alive' } ]
+476 silly lockFile 49b9185a--npmjs-org-buffy-buffy-0-0-4-tgz https://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz
+477 verbose lock https://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz /Users/cgerard/.npm/49b9185a--npmjs-org-buffy-buffy-0-0-4-tgz.lock
+478 verbose addRemoteTarball [ 'https://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz',
+478 verbose addRemoteTarball   'd208104fbd9b47a87cbb01fe3b2ef2df54300df8' ]
+479 info retry fetch attempt 1 at 19:47:52
+480 verbose fetch to= /var/folders/x6/t99gwnpn29x2ntxc2bbln7cm0000gn/T/npm-49311-Tjoap6lt/registry.npmjs.org/buffy/-/buffy-0.0.4.tgz
+481 http GET https://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz
+482 http 200 https://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz
+483 silly lockFile 49b9185a--npmjs-org-buffy-buffy-0-0-4-tgz https://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz
+484 silly lockFile 49b9185a--npmjs-org-buffy-buffy-0-0-4-tgz https://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz
+485 silly lockFile 179ba96e-buffy-0-0-4 buffy@0.0.4
+486 silly lockFile 179ba96e-buffy-0-0-4 buffy@0.0.4
+487 silly resolved [ { name: 'simple-debug',
+487 silly resolved     version: '1.1.2',
+487 silly resolved     description: 'simple tool to limit log output',
+487 silly resolved     keywords: [ 'debug', 'log', 'debugger', 'simple' ],
+487 silly resolved     author: { name: 'Tim Shadel', email: 'tim@shadelsoftware.com' },
+487 silly resolved     repository:
+487 silly resolved      { type: 'git',
+487 silly resolved        url: 'git+https://github.com/timshadel/simple-debug.git' },
+487 silly resolved     dependencies: {},
+487 silly resolved     devDependencies: { mocha: '*', 'expect.js': '*' },
+487 silly resolved     scripts: { test: 'mocha' },
+487 silly resolved     main: 'index',
+487 silly resolved     readme: '\n# simple-debug [![Build Status](https://travis-ci.org/timshadel/simple-debug.png?branch=master)](https://travis-ci.org/timshadel/simple-debug)\n\nSimple tool to limit log output. It\'s configuration is compatible with visionmedia/debug.\n\n## Examples\n\n### Basic\n\n```js\nvar debug = require(\'simple-debug\')(\'mything\');\n\nsetInterval(function(){\n  debug(\'doing something useful\');\n}, 1000);\n```\n\nThe __`DEBUG`__ environment variable used to enable logging. Give it space- or comma-separated names.\n\n```console\n$ DEBUG=mything node myapp\ndoing something useful\ndoing something useful\ndoing something useful\n```\n\n### Multiple\n\n```js\nvar debug = require(\'simple-debug\');\ndebug.working = debug(\'working\');\ndebug.waiting = debug(\'waiting\');\n\nsetInterval(function(){\n  debug.working(\'doing something useful\');\n  // ...\n  debug.waiting(\'pausing for 1s\');\n}, 1000);\n```\n\nTurn on only the `waiting` log.\n\n```console\n$ DEBUG=waiting node myapp\npausing for 1s\npausing for 1s\n```\n\nTurn on both.\n\n```console\n$ DEBUG=waiting,working node myapp\ndoing something useful\npausing for 1s\ndoing something useful\npausing for 1s\n```\n\n### Output Stream\n\nSend output through `console.err` instead of `console.log`.\n\n```js\nvar debug = require(\'simple-debug\')(\'mything\');\ndebug.log = console.error.bind(console);\n\nsetInterval(function(){\n  debug(\'doing something useful\');\n}, 1000);\n```\n\n## License \n\nMIT. The core functions were extracted from [debug][debug]. See LICENSE for details.\n\n[debug]: https://github.com/visionmedia/debug\n',
+487 silly resolved     readmeFilename: 'README.md',
+487 silly resolved     _id: 'simple-debug@1.1.2',
+487 silly resolved     dist:
+487 silly resolved      { shasum: '0934e1db75a3370684f7acb663d155b4d44cc6cb',
+487 silly resolved        tarball: 'http://registry.npmjs.org/simple-debug/-/simple-debug-1.1.2.tgz' },
+487 silly resolved     _from: 'simple-debug@~1.1.1',
+487 silly resolved     _npmVersion: '1.2.17',
+487 silly resolved     _npmUser: { name: 'timshadel', email: 'timshadel@gmail.com' },
+487 silly resolved     maintainers: [ [Object] ],
+487 silly resolved     directories: {},
+487 silly resolved     _shasum: '0934e1db75a3370684f7acb663d155b4d44cc6cb',
+487 silly resolved     _resolved: 'https://registry.npmjs.org/simple-debug/-/simple-debug-1.1.2.tgz' },
+487 silly resolved   { author:
+487 silly resolved      { name: 'Felix Geisendörfer',
+487 silly resolved        email: 'felix@debuggable.com',
+487 silly resolved        url: 'http://debuggable.com/' },
+487 silly resolved     contributors: [ [Object] ],
+487 silly resolved     name: 'buffy',
+487 silly resolved     description: 'A module to read / write binary data and streams.',
+487 silly resolved     version: '0.0.4',
+487 silly resolved     homepage: 'https://github.com/felixge/node-buffy',
+487 silly resolved     repository: { type: 'git', url: 'git://github.com/felixge/node-buffy.git' },
+487 silly resolved     main: './index',
+487 silly resolved     scripts: { test: 'make test' },
+487 silly resolved     dependencies: {},
+487 silly resolved     optionalDependencies: {},
+487 silly resolved     devDependencies: { utest: '0.0.6', urun: '0.0.6' },
+487 silly resolved     engines: { node: '*' },
+487 silly resolved     readme: '# buffy (The Buffer Slayer)\n\nA module to read / write binary data and streams.\n\n## Install\n\n```bash\nnpm install buffy\n```\n\n## Usage\n\nLet\'s say you want to parse a simple C struct, buffy can help:\n\n```js\nvar buffy = require(\'buffy\');\n\nvar buffer = new Buffer([23, 0, 0, 0, 15, 116, 101, 115, 116]);\nvar reader = buffy.createReader(buffer);\n\nvar record = {\n  version : reader.uint8(),\n  id      : reader.uint32(),\n  name    : reader.ascii(4),\n};\n\n// {version: 23, id: 15, name: \'test\'}\n```\n\nParsing a buffer is nice, but what about streams? Well, buffy has your back:\n\n```js\nvar buffy      = require(\'buffy\');\nvar net        = require(\'net\');\nvar connection = net.createConnection(1337, \'example.org\');\n\nvar reader = buffy.createReader();\nconnection.pipe(reader);\n\nreader.on(\'data\', function() {\n  while (reader.bytesAhead() >= 9) {\n    var record = {\n      version : reader.uint8(),\n      id      : reader.uint32(),\n      name    : reader.ascii(4),\n    };\n  }\n});\n```\n\nFuture version may also support a declarative syntax for defining structs and\ntheir sequences.\n\n## Reader API\n\n### reader.write(buffer)\n\nAppends the given `buffer` to the internal buffer. Whenever possible, existing\nspace inside the internal buffer will be reused, otherwise a new / bigger buffer\nwill be created.\n\n### reader.bytesAhead()\n\nReturns the number of unread bytes available to the reader.\n\n### reader.bytesBuffered()\n\nReturns the number of bytes that are buffered by the Reader internally.\n\n### reader.int8() / reader.uint8()\n\nReturns the next (un)signed 8 bit integer.\n\n### reader.int16BE() / reader.uint16BE() / reader.int16LE() / reader.uint16LE()\n\nReturns the next (un)signed 16 bit integer in the chosen endianness.\n\n### reader.int32BE() / reader.uint32BE() / reader.int32LE() / reader.uint32LE()\n\nReturns the next (un)signed 32 bit integer in the chosen endianness.\n\n### reader.float32BE() / reader.float32LE()\n\nReturns the next 32 bit float in the chosen endianness.\n\n### reader.double64BE() / reader.double64LE()\n\nReturns the next 64 bit double in the chosen endianness.\n\n### reader.ascii([bytes]) / reader.utf8([bytes])\n\nReturns the next `bytes` as a string of the chosen encoding. If `bytes` is\nomitted, a null terminated string is assumed.\n\n### reader.buffer([bytes])\n\nReturns the next `bytes` as a buffer.\n\n### reader.skip(bytes)\n\nSkips `bytes` bytes of the buffer.\n\n\n## Writer API\n\nThe Writer has not been implemented yet.\n\n## Error Handling\n\nThe reader will throw an exception whenever an operation exceeds the boundary\nof the internal buffer.\n',
+487 silly resolved     _id: 'buffy@0.0.4',
+487 silly resolved     dist:
+487 silly resolved      { shasum: 'd208104fbd9b47a87cbb01fe3b2ef2df54300df8',
+487 silly resolved        tarball: 'http://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz' },
+487 silly resolved     _npmVersion: '1.1.61',
+487 silly resolved     _npmUser: { name: 'bkw', email: 'bkw@codingforce.com' },
+487 silly resolved     maintainers: [ [Object], [Object] ],
+487 silly resolved     directories: {},
+487 silly resolved     _shasum: 'd208104fbd9b47a87cbb01fe3b2ef2df54300df8',
+487 silly resolved     _from: 'buffy@0.0.4',
+487 silly resolved     _resolved: 'https://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz' } ]
+488 info install simple-debug@1.1.2 into /Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone
+489 info install buffy@0.0.4 into /Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone
+490 info installOne simple-debug@1.1.2
+491 info installOne buffy@0.0.4
+492 verbose node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/simple-debug unbuild
+493 verbose tar unpack /Users/cgerard/.npm/simple-debug/1.1.2/package.tgz
+494 silly lockFile 802b16e7--drone-node-modules-simple-debug tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/simple-debug
+495 verbose lock tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/simple-debug /Users/cgerard/.npm/802b16e7--drone-node-modules-simple-debug.lock
+496 silly lockFile 10af6d95-m-simple-debug-1-1-2-package-tgz tar:///Users/cgerard/.npm/simple-debug/1.1.2/package.tgz
+497 verbose lock tar:///Users/cgerard/.npm/simple-debug/1.1.2/package.tgz /Users/cgerard/.npm/10af6d95-m-simple-debug-1-1-2-package-tgz.lock
+498 verbose node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/buffy unbuild
+499 silly gunzTarPerm modes [ '755', '644' ]
+500 verbose tar unpack /Users/cgerard/.npm/buffy/0.0.4/package.tgz
+501 silly lockFile 72e37754-ules-ar-drone-node-modules-buffy tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/buffy
+502 verbose lock tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/buffy /Users/cgerard/.npm/72e37754-ules-ar-drone-node-modules-buffy.lock
+503 silly lockFile 7c8d14c9-rard-npm-buffy-0-0-4-package-tgz tar:///Users/cgerard/.npm/buffy/0.0.4/package.tgz
+504 verbose lock tar:///Users/cgerard/.npm/buffy/0.0.4/package.tgz /Users/cgerard/.npm/7c8d14c9-rard-npm-buffy-0-0-4-package-tgz.lock
+505 silly gunzTarPerm modes [ '755', '644' ]
+506 silly gunzTarPerm extractEntry package.json
+507 silly gunzTarPerm extractEntry .npmignore
+508 silly gunzTarPerm extractEntry README.md
+509 silly gunzTarPerm extractEntry package.json
+510 silly gunzTarPerm extractEntry .npmignore
+511 silly gunzTarPerm extractEntry README.md
+512 silly gunzTarPerm extractEntry LICENSE
+513 silly gunzTarPerm extractEntry index.js
+514 silly gunzTarPerm extractEntry LICENSE
+515 silly gunzTarPerm extractEntry index.js
+516 silly gunzTarPerm extractEntry .travis.yml
+517 silly gunzTarPerm extractEntry History.md
+518 silly gunzTarPerm extractEntry CONTRIBUTING.md
+519 silly gunzTarPerm extractEntry Makefile
+520 silly gunzTarPerm extractEntry build/build.js
+521 silly gunzTarPerm extractEntry component.json
+522 silly gunzTarPerm extractEntry benchmarks/package.json
+523 silly gunzTarPerm extractEntry benchmarks/binary.js
+524 silly gunzTarPerm extractEntry benchmarks/buffy.js
+525 silly gunzTarPerm extractEntry benchmarks/Makefile
+526 silly gunzTarPerm extractEntry benchmarks/Readme.md
+527 silly gunzTarPerm extractEntry benchmarks/fixtures/generate-strings.js
+528 silly gunzTarPerm extractEntry benchmarks/lib/FixtureStream.js
+529 silly gunzTarPerm extractEntry benchmarks/lib/benchmark.js
+530 silly gunzTarPerm extractEntry lib/Reader.js
+531 silly gunzTarPerm extractEntry test/common.js
+532 silly gunzTarPerm extractEntry test/run.js
+533 silly gunzTarPerm extractEntry test/unit/test-Reader.js
+534 silly gunzTarPerm extractEntry test/unit/test-buffy.js
+535 silly lockFile 802b16e7--drone-node-modules-simple-debug tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/simple-debug
+536 silly lockFile 802b16e7--drone-node-modules-simple-debug tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/simple-debug
+537 silly lockFile 10af6d95-m-simple-debug-1-1-2-package-tgz tar:///Users/cgerard/.npm/simple-debug/1.1.2/package.tgz
+538 silly lockFile 10af6d95-m-simple-debug-1-1-2-package-tgz tar:///Users/cgerard/.npm/simple-debug/1.1.2/package.tgz
+539 info preinstall simple-debug@1.1.2
+540 verbose readDependencies using package.json deps
+541 verbose readDependencies using package.json deps
+542 silly resolved []
+543 verbose about to build /Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/simple-debug
+544 info build /Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/simple-debug
+545 verbose linkStuff [ false,
+545 verbose linkStuff   false,
+545 verbose linkStuff   false,
+545 verbose linkStuff   '/Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules' ]
+546 info linkStuff simple-debug@1.1.2
+547 verbose linkBins simple-debug@1.1.2
+548 verbose linkMans simple-debug@1.1.2
+549 verbose rebuildBundles simple-debug@1.1.2
+550 info install simple-debug@1.1.2
+551 info postinstall simple-debug@1.1.2
+552 silly lockFile 72e37754-ules-ar-drone-node-modules-buffy tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/buffy
+553 silly lockFile 72e37754-ules-ar-drone-node-modules-buffy tar:///Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/buffy
+554 silly lockFile 7c8d14c9-rard-npm-buffy-0-0-4-package-tgz tar:///Users/cgerard/.npm/buffy/0.0.4/package.tgz
+555 silly lockFile 7c8d14c9-rard-npm-buffy-0-0-4-package-tgz tar:///Users/cgerard/.npm/buffy/0.0.4/package.tgz
+556 info preinstall buffy@0.0.4
+557 verbose readDependencies using package.json deps
+558 verbose readDependencies using package.json deps
+559 silly resolved []
+560 verbose about to build /Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/buffy
+561 info build /Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules/buffy
+562 verbose linkStuff [ false,
+562 verbose linkStuff   false,
+562 verbose linkStuff   false,
+562 verbose linkStuff   '/Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone/node_modules' ]
+563 info linkStuff buffy@0.0.4
+564 verbose linkBins buffy@0.0.4
+565 verbose linkMans buffy@0.0.4
+566 verbose rebuildBundles buffy@0.0.4
+567 info install buffy@0.0.4
+568 info postinstall buffy@0.0.4
+569 verbose about to build /Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone
+570 info build /Users/cgerard/node_modules/cylon-ardrone/node_modules/ar-drone
+571 verbose linkStuff [ false,
+571 verbose linkStuff   false,
+571 verbose linkStuff   false,
+571 verbose linkStuff   '/Users/cgerard/node_modules/cylon-ardrone/node_modules' ]
+572 info linkStuff ar-drone@0.3.3
+573 verbose linkBins ar-drone@0.3.3
+574 verbose linkMans ar-drone@0.3.3
+575 verbose rebuildBundles ar-drone@0.3.3
+576 verbose rebuildBundles [ 'buffy', 'simple-debug' ]
+577 info install ar-drone@0.3.3
+578 info postinstall ar-drone@0.3.3
+579 verbose about to build /Users/cgerard/node_modules/cylon-ardrone
+580 info build /Users/cgerard/node_modules/cylon-ardrone
+581 verbose linkStuff [ false, false, false, '/Users/cgerard/node_modules' ]
+582 info linkStuff cylon-ardrone@0.17.0
+583 verbose linkBins cylon-ardrone@0.17.0
+584 verbose linkMans cylon-ardrone@0.17.0
+585 verbose rebuildBundles cylon-ardrone@0.17.0
+586 verbose rebuildBundles [ 'ar-drone', 'cylon' ]
+587 info install cylon-ardrone@0.17.0
+588 info postinstall cylon-ardrone@0.17.0
+589 verbose already installed skipping cylon@>= 0.22.0 < 1 /Users/cgerard
+590 silly resolved []
+591 error peerinvalid The package cylon does not satisfy its siblings' peerDependencies requirements!
+591 error peerinvalid Peer cylon-ardrone@0.17.0 wants cylon@>= 0.22.0 < 1
+591 error peerinvalid Peer cylon-leapmotion@0.16.0 wants cylon@>= 0.21.0 < 1
+591 error peerinvalid Peer cylon-neurosky@0.8.0 wants cylon@>= 0.21.0 < 1
+591 error peerinvalid Peer cylon-sphero@0.17.0 wants cylon@>= 0.21.0 < 1
+592 error System Darwin 13.4.0
+593 error command "node" "/usr/local/bin/npm" "install" "cylon-ardrone"
+594 error cwd /Users/cgerard/Projects/Personal_Projects/cylon-neurosky-drone
+595 error node -v v0.10.31
+596 error npm -v 1.4.23
+597 error code EPEERINVALID
+598 verbose exit [ 1, true ]
