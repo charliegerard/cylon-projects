@@ -13,6 +13,12 @@ Cylon.robot({
 
 	work: function(my){
 		my.leapmotion.on('frame', function(frame){
+			if(frame.hands.length > 0){
+				my.drone.takeoff();
+			} else {
+				my.drone.land();
+			}
+
 			if(frame.valid && frame.gestures.length > 0){
 				frame.gestures.forEach(function(g){
 					if(g.type == 'swipe'){
@@ -52,10 +58,10 @@ Cylon.robot({
 						if(superiorPosition === yAxis){
 							if(yDirection > 0){
 								console.log('UP');
-								my.drone.up();
+								my.drone.up(1);
 							} else {
 								console.log('DOWN');
-								my.drone.down();
+								my.drone.down(1);
 							}
 						}
 					} else if(g.type === 'keyTap'){
